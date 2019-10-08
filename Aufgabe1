@@ -11,3 +11,14 @@
 ** die drei int werden am Bildschirm angezeigt
 ** 6) packe die drei int in eine struct, verwende typedef und wiederhole 1 bis 5
 */
+
+/* Aufgabe 2:
+** Realisiere Aufgabe 1 in C++,
+** wobei Punkt eine Klasse wird, notwendigerweise
+*/
+
+/* Aufgabe 3:
+** lies input_tree.csv in C ein
+** lies input_tree.csv in C++ ein
+*/
+
