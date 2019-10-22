@@ -22,3 +22,9 @@
 ** lies input_tree.csv in C++ ein und gib es zeilenweise auf der Konsole aus.
 */
 
+/* Aufgabe 4:
+** lege 10 int als array im stack an 
+** lege 1000 int als array im heap an in C, C++ 
+** gib allen int beliebeige Werte, drucke diese in ein txt File, lies dieses File später ein
+** schreibe die Werte binär in ein bin File und lies sie von dort wieder aus
+*/
