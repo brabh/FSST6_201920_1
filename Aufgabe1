@@ -18,8 +18,8 @@
 */
 
 /* Aufgabe 3:
-** lies input_tree.csv in C ein und gib es zeilenweise auf der Konsole aus.
-** lies input_tree.csv in C++ ein und gib es zeilenweise auf der Konsole aus.
+** 1) lies input_tree.csv in C ein und gib es zeilenweise auf der Konsole aus.
+** 2) lies input_tree.csv in C++ ein und gib es zeilenweise auf der Konsole aus.
 */
 
 /* Aufgabe 4:
