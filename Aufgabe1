@@ -28,3 +28,12 @@
 ** gib allen int beliebeige Werte, drucke diese in ein txt File, lies dieses File später ein
 ** schreibe die Werte binär in ein bin File und lies sie von dort wieder aus
 */
+
+/* Aufgabe 5:
+** 1) do five binary writes of one int to a file
+** 2) read the binary file and print the int's to the console
+*/
+
+/* Aufgabe 6:
+** realize Aufgabe 5 in C++.
+*/
