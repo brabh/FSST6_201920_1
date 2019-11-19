@@ -40,3 +40,10 @@
 ** realize Aufgabe 5 in C++.
 */
 
+/* Aufgabe 7:
+** Klasse M mit MNum, VName, NName, GebDatum, Gehalt, EintrittsDatum
+** Erstelle mindestens 5 records, füge sie in einen std::vector hinzu und finde den ältesten MA, den Bestverdiener, 
+** 
+** C++
+*/
+
