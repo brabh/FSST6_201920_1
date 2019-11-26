@@ -53,3 +53,10 @@
 ** 
 */
 
+/* Aufgabe 9:
+** Erstelle eine MFC Dialog Application um eine Eingabemaske für Aufgabe 7 zu erhalten 
+** Zeige die gelesenen Inhalte auch in anderen Feldern der Dialogbox an, 
+** Schreibe die Daen in ein Text File
+*/
+
+
