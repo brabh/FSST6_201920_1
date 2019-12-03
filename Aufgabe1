@@ -61,5 +61,6 @@
 
 /* Aufgabe 10:
 ** erstelle in einer funktion f1 ein Array mit 5 Klassen und gib sie an die main function retour 
-** und dort in der Konsole oder einem MFC Dialog aus.
+** 1.) und dort in der Konsole oder 
+** 2) einem MFC Dialog aus.
 */
