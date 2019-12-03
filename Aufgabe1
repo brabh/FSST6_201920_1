@@ -49,7 +49,7 @@
 
 /* Aufgabe 8:
 ** Erstelle in MFC eine Dialog Application mit zwei Textfeldern und einem Button.
-** Clickt man den Button wird er Text aus Feld 1 gelesen und in Feld 2 geschrieben.
+** Clickt man den Button wird der Text aus Feld 1 gelesen und in Feld 2 geschrieben.
 ** 
 */
 
