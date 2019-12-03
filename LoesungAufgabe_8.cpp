@@ -6,7 +6,7 @@
 ** und einen Button in den Dialog hinzufügen 
 ** Für die Textfelder je eine Variable hinzufügen
 ** Für den Button das Event OnBnClicked hinzufügen
-** die gewünshcte Funktionalität in diese neue Funktion schreiben:
+** die gewünschte Funktionalität in diese neue Funktion schreiben:
 */
 
 
