@@ -27,6 +27,7 @@
 //							Benutzerdefinierte Meldung hinzufügen ->
 //								AFX_WM_DRAW2D
 //								OnDraw2d
+// 						und auf registrierte Meldung klicken
 
 		CHwndRenderTarget* pRenderTarget = (CHwndRenderTarget*)lParam;
 		ASSERT_VALID(pRenderTarget);
