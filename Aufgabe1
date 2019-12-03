@@ -64,3 +64,7 @@
 ** 1.) und dort in der Konsole oder 
 ** 2) einem MFC Dialog aus.
 */
+
+/* Augabe 11:
+** Zeichne zweidimensional in einer MFC Dialog Application ein Lininechart
+*/
