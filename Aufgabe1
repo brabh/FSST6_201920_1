@@ -117,7 +117,8 @@
  */
 
 /* Aufgabe 17:
-** Übergib eine beliebige Anzahl int als Parameter an den Konstruktor einer Klasse N
+** Übergib eine beliebige, variable Anzahl int als Parameter an den Konstruktor einer Klasse N
 ** und drucke diese vomm Konstruktor in der Konsole aus.
 ** Verwende dazu eine std::initializer_list
 */
+
