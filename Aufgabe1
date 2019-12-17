@@ -116,3 +116,8 @@
  ** Testen sie dann aus main, was die fuktionen norm und denorm der Klasse N tun, mit verschiedenen double Werten.
  */
 
+/* Aufgabe 17:
+** Übergib eine beliebige Anzahl int als Parameter an den Konstruktor einer Klasse N
+** und drucke diese vomm Konstruktor in der Konsole aus.
+** Verwende dazu eine std::initializer_list
+*/
