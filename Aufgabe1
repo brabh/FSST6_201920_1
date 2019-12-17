@@ -122,3 +122,8 @@
 ** Verwende dazu eine std::initializer_list
 */
 
+/* Aufgabe 18:
+** Erstelle eine Klasse N mittels unique Pointer und übergib diesen Pointer an eine funktion.
+** Schreibe in den Destruktor dieser Klasse std::cout << "Good bye"; und zeige damit wann dieser aufgerufen wird. 
+** 
+*/ 
