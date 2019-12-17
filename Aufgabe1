@@ -102,17 +102,17 @@
  ** Aufgabe  16:
  ** kreieren sie in der Klasse N die funktion
  ** // Normalization function
- ** void N::norm(double& p_v_orig) { //, double& A_max, double& A_min, double& new_A_max, double& new_A_min) {
+ ** void N::norm(double& p_v_orig) { 
  **                                  p_v_orig = (p_v_orig - A_min) * (new_A_max - new_A_min) / (A_max - A_min) + new_A_min;
  ** }
  ** und
  ** // Denormalization function
- ** double N::denorm(double& p_v_norm) { //, double& A_max, double& A_min, double& new_A_max, double& new_A_min) {
+ ** double N::denorm(double& p_v_norm) {
  **                                    	return (p_v_norm - new_A_min) * (A_max - A_min) / (new_A_max - new_A_min) + A_min;
  ** }
  ** Erstellen Sie in main ein tuple
  ** normalization{ 1.0, 0.0, 1.0, 0.0 };
  ** und übergeben es mit dem Konstruktor an die Klasse N.
- ** Testen sie dann aus main, was die fuktionen norm und denorm tun, mit verschiedenen double Werten.
+ ** Testen sie dann aus main, was die fuktionen norm und denorm der Klasse N tun, mit verschiedenen double Werten.
  */
 
