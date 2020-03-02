@@ -2,7 +2,7 @@
 ** Aufgabe 20
 ** Übergeben Sie ein Lambda an eine funktion
 ** indem sie das Lambda definieren und per name übergeben
-** indem sie  das Lambda in den funktionsaufruf schreiben
+** indem sie das Lambda in den funktionsaufruf schreiben
 */
 
 
