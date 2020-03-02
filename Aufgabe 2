@@ -5,3 +5,20 @@
 ** indem sie  das Lambda in den funktionsaufruf schreiben
 */
 
+
+/* 
+** Aufgabe 21
+**
+** Fname	Vname	  GebDatum	Gehalt	Plz
+** string	string	YYYYMMTT	double	int
+**
+** Wir speichern ein excel file in obiger Auslegung als .csv file 
+** und lesen es mit C++ ein und geben den Inhalt am Bildschirm aus. 
+**
+*/
+
+
+
+
+
+
