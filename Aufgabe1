@@ -130,8 +130,8 @@
 
 /* Aufgabe 19:
 ** Wie kann ich über alle diese values sortieren und ausdrucken?
-** 1) mittels Basisklassse und Vererbung (also nicht mehr HPC sondern mittels Virtual Function  table)
-** 2) ohne Vererbung
+** 1) mittels Basisklassse und Vererbung (also "klassisch", daher nicht mehr HPC sondern mittels Virtual Function table)
+** 2) ohne Vererbung (C++17, ev 20)
 
 class kredit{
 public: 
