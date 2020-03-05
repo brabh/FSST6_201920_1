@@ -130,6 +130,8 @@
 
 /* Aufgabe 19:
 ** Wie kann ich über alle diese values sortieren und ausdrucken?
+** 1) mittels Basisklassse und Vererbung (also nicht mehr HPC sondern mittels Virtual Function  table)
+** 2) ohne Vererbung
 
 class kredit{
 public: 
