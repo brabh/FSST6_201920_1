@@ -29,24 +29,24 @@ public:
 };
 
 class kredit : public base {
+	double value;
 public:
-double value;
-kredit(double parValue) : value{parValue} {}
-double getSaldo() { return value; }
+	kredit(double parValue) : value{parValue} {}
+	double getSaldo() { return value; }
 };
 
 class wertpapier : public base {
+	double value;
 public:
-double value;
-wertpapier(double parValue) : value{ parValue } {}
-double getSaldo() { return value; }
+	wertpapier(double parValue) : value{ parValue } {}
+	double getSaldo() { return value; }
 };
 
 class foreignexchange : public base {
+	double value;
 public:
-double value;
-foreignexchange(double parValue) : value{ parValue } {}
-double getSaldo() { return value; }
+	foreignexchange(double parValue) : value{ parValue } {}
+	double getSaldo() { return value; }
 };
 
 
@@ -68,7 +68,7 @@ int main() {
 
 	std::sort(vb.begin(), vb.end(), [](auto& p1, auto& p2) {
 
-		//std::cout << typeid(p1).name() << std::endl; // it is a ref to base*
+		//std::cout << typeid(p1).name() << std::endl; // auto& is a ref to base*
 
 		return p1->getSaldo() < p2->getSaldo();
 
