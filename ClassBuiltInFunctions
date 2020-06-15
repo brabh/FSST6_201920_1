@@ -1,0 +1,92 @@
+
+//
+// Class built in functions 
+//
+
+#include <iostream>
+#include <string>
+
+class M {
+public:
+	int i;
+	double d;
+	std::string s;
+
+	M (int i = 0, double d = 0.0, std::string s = "default") :i{ i }, d{ d }, s{ s } { } // = default;
+
+	explicit M(const M& m): i{ m.i }, d{ m.d }, s{ m.s } {} // = default;
+
+	M& operator= (const M& m) {
+		this->i = m.i;
+		this->d = m.d;
+		this->s = m.s;
+		return *this;
+	} // = default;
+
+	M (M&& m) noexcept : i{ m.i }, d{ m.d }, s{ m.s }  {m.i = 0; m.d = 0.0; m.s = "default"; } // = default;
+
+	M& operator= (M&& m) noexcept {
+		this->i = m.i;
+		this->d = m.d;
+		this->s = m.s;
+		m.i = 0; 
+		m.d = 0.0; 
+		m.s = "default";
+		return *this;
+	} // = default;
+
+	~M() {
+		std::cout << "Destructor called\n" << std::endl; // = default;
+	}
+
+
+};
+
+std::ostream& operator<< (std::ostream& os, const M& m) {
+	return os << "i = " << m.i << " d = " << m.d << " s = " << m.s << std::endl;
+}
+
+int main() {
+
+	int i0;
+	M m0;					// constructor
+
+	int i1 = 7; // alt
+	M m1{ 7 };				// constructor
+	int i2{ 7 }; // neu
+
+	M m2 { 7 };
+
+	M m3();					// function declaration
+	M m4{ 7, 7.5 };			// 2nd constructor
+	M m5{ 5, 5.5, "hello" }; // 3rd constructor
+
+	std::cout << m4.s << std::endl;
+
+	M m6 { m5 };				// copy constructor
+	M m5a;
+	M m6a{ m5a };// = m5a;		// copy constructor mit explicit kein =
+
+	std::cout << m5 << std::endl;
+	std::cout << m6 << std::endl;
+
+	M m7{ 0,0.0, "nein" }, m8{ 8,8.8, "Ja" };
+	m7 = m8;						// copy assignment
+	std::cout << m8 << std::endl;
+	std::cout << m7 << std::endl;
+
+	M m9{ 0,0.0, "nein" }, m10{ 10,10.10, "Zehn" };
+	m9 = std::move(m10);            // move assignment
+	std::cout << m10 << std::endl;
+	std::cout << m9 << std::endl;
+
+	M m12{ 12,12.0, "zwoelf" };
+	M m11(std::move(m12));          // move Constructor
+	std::cout << m12 << std::endl;
+	std::cout << m11 << std::endl;
+
+	return 0;
+}
+
+
+
